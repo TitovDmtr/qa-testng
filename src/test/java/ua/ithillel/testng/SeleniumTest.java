@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class SeleniumTest {
     @Test
-    public void TitleTest() throws InterruptedException {
+    public void TitleTest() {
         WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize(); // open full size window
